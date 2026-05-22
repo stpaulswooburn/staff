@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>St Paul's Staff Portal</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="/_sdk/element_sdk.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,6 @@
     }
 
     :root {
-      /* New blue color scheme configuration */
       --bg-color: #0a0aa1; 
       --card-color: #FFFFFF;
       --text-color: #0a0aa1; 
@@ -86,8 +85,6 @@
     .tile:nth-child(24) { animation-delay: 1.2s; }
     .tile:nth-child(25) { animation-delay: 1.25s; }
     .tile:nth-child(26) { animation-delay: 1.3s; }
-    .tile:nth-child(27) { animation-delay: 1.35s; }
-    .tile:nth-child(28) { animation-delay: 1.4s; }
 
     .tile-icon {
       font-size: 2.2rem;
@@ -123,10 +120,10 @@
      <nav aria-label="Staff resources">
       <ul id="tile-grid" class="grid gap-3 sm:gap-4 list-none p-0 m-0 auto-rows-fr" style="grid-template-columns: repeat(6, 1fr);">
       
-      <li class="w-full"><a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
+      <li class="w-full"><a href="https://outlook.office.com/calendar/view/workweek" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fu%2F0%2Fr" alt="Calendar" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='📅';">
-    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Calendar</h2><p class="text-xs mt-1 opacity-70">Google Calendar</p></a></li>
+        <img src="https://static.wikia.nocookie.net/windows/images/9/97/Calendar_2020.png/revision/latest/thumbnail/width/360/height/360?cb=20221121025037" alt="Calendar" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='📅';">
+    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Calendar</h2><p class="text-xs mt-1 opacity-70">Outlook Calendar</p></a></li>
 
       <li class="w-full"><a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
@@ -153,20 +150,15 @@
         <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Fedukeyapp.com%2Faccount%2Flogin" alt="Edukey" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🎓';">
     </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Edukey</h2><p class="text-xs mt-1 opacity-70">SEN support plans</p></a></li>
 
+      <li class="w-full"><a href="https://outlook.office.com/mail/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
+    <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRepYxjjncfvrQ4gAXYE9phpwLY2hmuna1SNA&s" alt="Email" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='📧';">
+    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Email</h2><p class="text-xs mt-1 opacity-70">Outlook Mail</p></a></li>
+
       <li class="w-full"><a href="https://evolve.edufocus.co.uk/evco10/evchome_public.asp?domain=bucksccvisits.org" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
         <img src="https://www.google.com/s2/favicons?sz=128&domain_url=https%3A%2F%2Fedufocus.co.uk%2Fevolvevisits%2F" alt="Evolve Trips" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🚌';">
     </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Evolve Trips</h2><p class="text-xs mt-1 opacity-70">Trip planning</p></a></li>
-
-      <li class="w-full"><a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
-    <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Fgemini.google.com%2Fapp" alt="Gemini" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='✨';">
-    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Gemini</h2><p class="text-xs mt-1 opacity-70">AI assistant</p></a></li>
-
-      <li class="w-full"><a href="https://mail.google.com/mail/?tab=rm&amp;ogbl" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
-    <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Drm%26ogbl" alt="Gmail" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='📧';">
-    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Gmail</h2><p class="text-xs mt-1 opacity-70">Email</p></a></li>
 
       <li class="w-full"><a href="https://google.com/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
@@ -182,11 +174,6 @@
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
         <img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.kapowprimary.com%2Flogin%2F" alt="Kapow" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🎨';">
     </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Kapow</h2><p class="text-xs mt-1 opacity-70">Curriculum plans</p></a></li>
-
-      <li class="w-full"><a href="https://thekeysupport.com/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
-    <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Fthekeysupport.com%2F" alt="The Key" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🔑';">
-    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">The Key</h2><p class="text-xs mt-1 opacity-70">Leadership resources</p></a></li>
 
       <li class="w-full"><a href="https://library.libresoft.co.uk/8252269-9ud884ax0gyaau7etx1a-sps/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
@@ -213,11 +200,6 @@
         <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Fprojectevolve.co.uk%2Ftoolkit%2F" alt="Project Evolve" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='📋';">
     </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Project Evolve</h2><p class="text-xs mt-1 opacity-70">Online Safety</p></a></li>
 
-      <li class="w-full"><a href="https://docs.google.com/spreadsheets/d/1nheJYcG2QgcyAqlMERwHN_sHf_Wv6EGY18Lk_3uNPbY/edit?gid=2070434570#gid=2070434570" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
-    <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Google_Sheets_logo_%282014-2020%29.svg/960px-Google_Sheets_logo_%282014-2020%29.svg.png" alt="Reflection Sessions" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='📊';">
-    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Reflection Sessions</h2><p class="text-xs mt-1 opacity-70">Recording behaviour</p></a></li>
-
       <li class="w-full"><a href="https://schoolsweb.buckinghamshire.gov.uk/s4s/WhereILive/Council?pageId=2" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
         <img src="https://www.buckinghamshire.gov.uk/static/images/bc-logo-high-res.6b22d14dad18.png" alt="SchoolsWeb" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🏢';">
@@ -238,15 +220,20 @@
         <img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fsl.safesmart.co.uk%2Fmi_dashboard%2F" alt="Smartlog" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🔐';">
     </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Smartlog</h2><p class="text-xs mt-1 opacity-70">CPD training</p></a></li>
 
-      <li class="w-full"><a href="https://www.stokenchurchprimary.co.uk/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
+      <li class="w-full"><a href="http://stpaulsschool.co.uk/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.stokenchurchprimary.co.uk%2F" alt="School Website" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🏫';">
-    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Stokenchurch</h2><p class="text-xs mt-1 opacity-70">School website</p></a></li>
+        <img src="https://favicon.im/stpaulsschool.co.uk?larger=true" alt="St Paul's" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🏫';">
+    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">St Paul's</h2><p class="text-xs mt-1 opacity-70">School website</p></a></li>
 
       <li class="w-full"><a href="https://tapestryjournal.com/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
         <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Ftapestry.info%2F" alt="Tapestry" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='📔';">
     </div><h2 class="portal-title text-sm font-bold leading-tight break-words">Tapestry</h2><p class="text-xs mt-1 opacity-70">EYFS journal</p></a></li>
+
+      <li class="w-full"><a href="https://thekeysupport.com/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
+    <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
+        <img src="https://www.google.com/s2/favicons?sz=128&amp;domain_url=https%3A%2F%2Fthekeysupport.com%2F" alt="The Key" loading="lazy" style="max-width: 48px; max-height: 48px; width: 48px; height: 48px;" onerror="this.style.display='none'; this.parentElement.textContent='🔑';">
+    </div><h2 class="portal-title text-sm font-bold leading-tight break-words">The Key</h2><p class="text-xs mt-1 opacity-70">Leadership resources</p></a></li>
 
       <li class="w-full"><a href="https://www.traveltracker.org.uk/en-gb/accounts/login/?next=/en-gb/teachers/dashboard/70234/6/class/" target="_blank" rel="noopener noreferrer" class="tile block rounded-xl p-3 text-center no-underline cursor-pointer flex flex-col h-full" style="background: var(--card-color); border: 2px solid #E0F2FE; color: var(--text-color);">
     <div class="tile-icon mb-2" style="display: flex; align-items: center; justify-content: center;">
